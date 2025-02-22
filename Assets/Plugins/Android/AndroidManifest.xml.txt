@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tuempresa.tuapp">
+    
+    <!-- Permisos necesarios para acceder a la ubicación -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application>
+        <activity android:name="com.unity3d.player.UnityPlayerActivity"
+            android:theme="@style/UnityThemeSelector"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask">
+            
+            <!-- Definir el uso de ubicación en Android 10+ -->
+            <meta-data android:name="com.google.android.geo.API_KEY" android:value="TU_API_KEY"/>
+
+        </activity>
+    </application>
+</manifest>
