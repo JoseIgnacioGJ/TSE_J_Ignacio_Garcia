@@ -1,4 +1,4 @@
-===========================================================================================================================================================================================
+======================================================================================================================================================
 1. Configuración del Proyecto 
 2. Solicitar Permisos de Ubicación
 
@@ -15,7 +15,7 @@ Example.apk
 
 - Nota aparte: si se desea hacer pruebas dentro de la escena de Unity, es necesario ajustar el tamaño de la ventana a 1080x1400 px.
 
-===========================================================================================================================================================================================
+======================================================================================================================================================
 3. Crear una Ventana Personalizada en el Editor
 
 - Escena/s:
@@ -27,7 +27,7 @@ Assets/Editor/MyCustomEditorWindow.cs
 
 - Instrucciones: en el Editor de Unity, en el menú superior, hay que hacer click en "Tools" y luego en "Construir Escenas". Luego, habrá una ventana emergente donde se podrá realizar las tareas pedidas con las escenas del proyecto.
 
-===========================================================================================================================================================================================
+======================================================================================================================================================
 5. Validaciones y Optimización
 
 - Escena/s:
@@ -39,7 +39,7 @@ Assets/Scripts/GameController.cs
 
 - Instrucciones: dentro de Unity, en la ventana "Hierarchy" de la escena "GeneraCubos", se debe hacer "click" en "Canvas" y luego, en la ventana "Inspector" se podrá ver el script "Game Controller". En éste se puede manejar las opciones del script para luego ejecutarlas en la escena. Al darle al "Play", en la ventana "Console" aparecerán varios mensajes de diferentes colores.
 
-===========================================================================================================================================================================================
+======================================================================================================================================================
 4. Generar un Cubo en la Escena mediante un Botón en el Editor
 6. Tareas Adicionales (Opcionales, pero recomendadas)
 
