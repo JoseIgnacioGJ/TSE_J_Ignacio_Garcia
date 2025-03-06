@@ -53,3 +53,5 @@ Assets/Editor/CubeSpawnerEditor.cs
 - Instrucciones: dentro de Unity, en la ventana "Hierarchy" de la escena "GeneraCubos", se debe hacer "click" en "Canvas" y luego, en la ventana "Inspector" se podrá ver el script "Cube Spawner". En éste se puede manejar las opciones del script antes y/o durante la ejecución de la escena. Al darle al "Play", se pondrá en marcha la escena y donde se puede ver lo que ocurre en ésta mediante la ventana "Console". Es necesario que el tamaño de la ventana de la escena esté en "Free Aspect".
 
 - Nota aparte: se ha optimizado la generación de cubos para evitar acumulaciones excesivas de objetos en la jerarquía. Para ello, en el código se ha seguido la siguiente estrategia: en lugar de crear un cubo cada vez que se solicita, se reutiliza los cubos ya generados que no están activos. Y en lugar de destruir los cubos, se desactivan cuando no sean necesarios. Esto ayuda a mantener la jerarquía más limpia. Además, evita la creación y destrucción constantes de GameObjects, lo cual es costoso en términos de rendimiento.
+
+===========================================================================
