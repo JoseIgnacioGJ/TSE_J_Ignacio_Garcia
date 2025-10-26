@@ -1,7 +1,3 @@
-# TSE_J_Ignacio_Garcia
-Una serie de ejercicios enfocados en el desarrollo XR con Unity.
-
-
 ===========================================================================
 1. Configuración del Proyecto 
 2. Solicitar Permisos de Ubicación
